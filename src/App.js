@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import { useState } from 'react';
 
@@ -12,7 +11,7 @@ function App() {
     setDownRate((220 - age) * 0.65);
   }
   return (
-    <div >
+    <div>
       <h1>Heart rate limits calculator</h1>
       <form>
         <div>
