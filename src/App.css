@@ -17,3 +17,23 @@
   color: #61dafb;
 }
 
+.btn{
+  background-color: #008CBA;
+  color: white;
+  border: none;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.outdiv{
+  width: 175px;
+  border: 1px solid rgb(87, 86, 86);
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+.maindiv{
+  margin: 10px;
+}

@@ -11,7 +11,7 @@ function App() {
     setDownRate((220 - age) * 0.65);
   }
   return (
-    <div>
+    <div class="maindiv">
       <h1>Heart rate limits calculator</h1>
       <form>
         <div>
@@ -23,12 +23,12 @@ function App() {
           <br/>
           <label>rate</label>
         </div>
-        <div>
+        <div class="outdiv">
           <output>{downRate.toFixed(0)}</output>
           <label>-</label>
           <output>{upRate.toFixed(0)}</output>
         </div>
-        <button type="button" onClick={calculate}>Calculate</button>
+        <button type="button" class="btn"onClick={calculate}>Calculate</button>
       </form>
     </div>
   );
